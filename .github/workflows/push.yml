@@ -1,0 +1,9 @@
+name: Tick on every push
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Nope
+      run: |
+        echo "Maybe"
